@@ -1,0 +1,6 @@
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\ClassLibrary3.csprojAssemblyReference.cache
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\ClassLibrary3.pdb

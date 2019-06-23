@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@model DaysCalc.Models.DaysCalc
+<h2>Index</h2>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+@using (Html.BeginForm("Index", "DaysCalc"))
+{
+    <div>
+
+        <div class="form-group">
+            <p>Enter From Date </p>
+            @Html.EditorFor(model => model.DateFrom, new { htmlAttributes = new { @class = "form-control date" ,@placeholder = "DD-MM-YYYY" }, required = "required" })
+
+        </div>
+        <div class="form-group">
+            <p>Enter To Date</p>
+            @Html.EditorFor(model => model.DateTo, new { htmlAttributes = new { @class = "form-control date", @format = "DD-MM-YYYY" }, required = "required" })
+
+        </div>
+
+        <div>
+            Total Calculated days: @ViewData["NumberofDays"]
+        </div>
+        <input id="Submit1" type="submit" value="Compare" />
+        
+
+
+    </div>
+}
+
+<script src="~/lib/jquery/dist/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //alert("ready");
+        $('#Submit1').click(function (e) {
+
+            var from = $("#DateFrom").val();
+            var to = $("#DateTo").val();
+
+            if (from == 'null' || from =='undefined' || from =='' ) {
+                alert("From date Empty");
+                e.preventDefault();
+                return;
+            }
+            if (to == 'null' || to == 'undefined' || to == '') {
+                alert("To date Empty");
+                e.preventDefault();
+                return;
+            }
+            if (Date.parse(from) > Date.parse(to)) {
+                alert("From date should be Less than To date");
+                e.preventDefault();
+                return;
+            }
+
+        });
+    });
+
+
+</script>

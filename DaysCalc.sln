@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysCalc", "DaysCalc\DaysCalc.csproj", "{4921F844-8216-4E24-AD4B-F4189D692456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysCalc.Tests", "DaysCalc.Tests\DaysCalc.Tests.csproj", "{CA92A7A7-E9BA-4351-BB73-0BEBB0248675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0BD4647-14A7-49B2-A014-00EF5FC3B92D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysCalculator", "DaysCalculator\DaysCalculator.csproj", "{FFD4B02F-D1BA-4D11-8F2C-335A65AEB2AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4921F844-8216-4E24-AD4B-F4189D692456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4921F844-8216-4E24-AD4B-F4189D692456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4921F844-8216-4E24-AD4B-F4189D692456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4921F844-8216-4E24-AD4B-F4189D692456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA92A7A7-E9BA-4351-BB73-0BEBB0248675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA92A7A7-E9BA-4351-BB73-0BEBB0248675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA92A7A7-E9BA-4351-BB73-0BEBB0248675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA92A7A7-E9BA-4351-BB73-0BEBB0248675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD4B02F-D1BA-4D11-8F2C-335A65AEB2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD4B02F-D1BA-4D11-8F2C-335A65AEB2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD4B02F-D1BA-4D11-8F2C-335A65AEB2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD4B02F-D1BA-4D11-8F2C-335A65AEB2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D98F1D4-50A8-43A7-A5FD-302E5596C84E}
+	EndGlobalSection
+EndGlobal

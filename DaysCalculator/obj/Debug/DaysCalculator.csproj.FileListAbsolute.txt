@@ -1,0 +1,11 @@
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\DaysCalculator.csproj.CoreCompileInputs.cache
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\bin\Debug\DaysCalculator.dll
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\bin\Debug\DaysCalculator.pdb
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\DaysCalculator.dll
+C:\Users\amujavar\source\repos\DaysCalc\ClassLibrary3\obj\Debug\DaysCalculator.pdb
+C:\Users\amujavar\source\repos\DaysCalc\DaysCalculator\bin\Debug\DaysCalculator.dll
+C:\Users\amujavar\source\repos\DaysCalc\DaysCalculator\bin\Debug\DaysCalculator.pdb
+C:\Users\amujavar\source\repos\DaysCalc\DaysCalculator\obj\Debug\DaysCalculator.csproj.CoreCompileInputs.cache
+C:\Users\amujavar\source\repos\DaysCalc\DaysCalculator\obj\Debug\DaysCalculator.dll
+C:\Users\amujavar\source\repos\DaysCalc\DaysCalculator\obj\Debug\DaysCalculator.pdb
+C:\Users\amujavar\source\repos\DaysCalc\DaysCalculator\obj\Debug\DaysCalculator.csprojAssemblyReference.cache
